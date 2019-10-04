@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/siteCard"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textSite"
+            android:layout_width="273dp"
+            android:layout_height="55dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="3dp"
+            android:text="Cumhuriyet "
+            android:textAlignment="textStart"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <CheckBox
+            android:id="@+id/checkBoxSite"
+            android:layout_width="wrap_content"
+            android:layout_height="47dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:enabled="false"
+            android:text="Aktif" />
+
+        <ImageView
+            android:id="@+id/satirImageSite"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            app:srcCompat="@drawable/popup_image" />
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
